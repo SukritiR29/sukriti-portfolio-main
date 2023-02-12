@@ -9,7 +9,7 @@ export default function Contact() {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      emailjs.sendForm('service_y8ekop6', 'template_3n2f39w', form.current, '9IsH8DNDnEbZ-QxUJ')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -73,7 +73,9 @@ export default function Contact() {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="btn btn-primary">Button</button>
+               <form ref={form} onSubmit={sendEmail}>
+                <button className="btn btn-primary">Send</button>
+               </form>
               </div>
             </div>
           </div>
