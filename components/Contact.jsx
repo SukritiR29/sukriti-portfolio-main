@@ -1,6 +1,26 @@
 import React from "react";
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
+
 
 export default function Contact() {
+
+  const Contact = () => {
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_3fekmup', 'template_jf4n07l', form.current, '9IsH8DNDnEbZ-QxUJ')
+  
+      e.target.reset()
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+  
   return (
     <section
       id="contact"
@@ -65,4 +85,4 @@ export default function Contact() {
       </div>
     </section>
   );
-}
+} }

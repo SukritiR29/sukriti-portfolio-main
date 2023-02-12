@@ -11,28 +11,32 @@ export default function index() {
   useEffect(() => {
     const sections = document.querySelectorAll("section");
 
-    const observer = new IntersectionObserver((entries) => {
-      // console.log(entries);
-      entries.forEach(
-        (entry) => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        // console.log(entries);
+        entries.forEach((entry) => {
           const id = entry.target.getAttribute("id");
 
           if (entry.isIntersecting) {
             document
-              .querySelector(`.nav-link[href="#${id}"]`)
-              .classList.add("active");
+              .querySelectorAll(`.nav-link[href="#${id}"]`)
+              .forEach((link) => {
+                link.classList.add("active");
+              });
             console.log(entry);
           } else {
             document
-              .querySelector(`.nav-link[href="#${id}"]`)
-              .classList.remove("active");
+              .querySelectorAll(`.nav-link[href="#${id}"]`)
+              .forEach((link) => {
+                link.classList.remove("active");
+              });
           }
-        },
-        {
-          threshold: 1,
-        }
-      );
-    });
+        });
+      },
+      {
+        threshold: 0.51,
+      }
+    );
     sections.forEach((section) => {
       observer.observe(section);
     });

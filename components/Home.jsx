@@ -18,26 +18,26 @@ export default function Home() {
             I am a front-end web devloper and UI/UX designer. Also a content
             writer and graphic designer at times.
           </span>
-          <a href="#" className="btn btn-primary">
+          <a href="http://resume-sukritir29.vercel.app/" className="btn btn-primary">
             Download Resume
           </a>
         </div>
         <div className="flex flex-col-reverse md:flex-col items-center justify-center w-full px-4">
           <img className="w-4/5" src="/assets/images/girl.png" alt="" />
           <div className="flex gap-4 text-2xl md:text-4xl justify-center w-full">
-            <a href="" className="hover:scale-125 transition-transform">
+            <a href="https://www.linkedin.com/in/sukriti-rajora-48b4aa218" className="hover:scale-125 transition-transform">
               <FiLinkedin />
             </a>
-            <a href="" className="hover:scale-125 transition-transform">
+            <a href="https://github.com/SukritiR29" className="hover:scale-125 transition-transform">
               <FiGithub />
             </a>
-            <a href="" className="hover:scale-125 transition-transform">
+            <a href="https://discordapp.com/users/Sukriti%20Rajora#0820" className="hover:scale-125 transition-transform">
               <FaDiscord />
             </a>
-            <a href="" className="hover:scale-125 transition-transform">
+            <a href="http://figma.com/@sukritiRajora" className="hover:scale-125 transition-transform">
               <FiFigma />
             </a>
-            <a href="" className="hover:scale-125 transition-transform">
+            <a href="mailto:sukritirajora@gmail.com" className="hover:scale-125 transition-transform">
               <FiMail />
             </a>
           </div>

@@ -28,15 +28,15 @@ export default function Slider() {
       >
         {/* sumedha */}
         <SwiperSlide className="">
-          <Slide heading="Sumedha" bg="bgBlue" />
+          <Slide heading="Sumedha" bg="bgBlue" livelink="https://github.com/ishubham21/SIH-parent" repolink="https://sih-parent.vercel.app/" />
         </SwiperSlide>
         {/* Curenimal */}
         <SwiperSlide className="">
-          <Slide heading="Curenimal" bg="bgGreen" />
+          <Slide heading="Curenimal" bg="bgGreen" livelink="https://gdsc-rtu.github.io/Solution-Challenge-CureNimal/" repolink="https://github.com/GDSC-RTU/Solution-Challenge-CureNimal" />
         </SwiperSlide>
         {/* tedx */}
         <SwiperSlide>
-          <Slide heading="TEDxRTU" bg="bgRed" />
+          <Slide heading="TEDxRTU" bg="bgRed" livelink="http://www.tedxrtu.com/" repolink="https://github.com/SukritiR29/tedx-rtu" />
         </SwiperSlide>
       </Swiper>
     </>
