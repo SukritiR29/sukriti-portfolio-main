@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+}
+#homesvg {
+  stroke-dashoffset: 2%;
+}
+/* .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+} */
+
+/* .swiper-slide img {
+  display: block;
+  width: 50%;
+  margin: auto;
+} */
+.bgRed {
+  background-color: #860000;
+}
+.bgGreen {
+  background-color: #75ab98;
+}
+.bgBlue {
+  background-color: #1e3d59;
+}
+.skill {
+  @apply flex text-xl items-center font-bold text-yellow-700 md:justify-center py-4 gap-4;
+}
