@@ -5,7 +5,7 @@ export default function Navbar() {
     <div className="w-full fixed z-50 bg-base-100/50 backdrop-blur-lg">
       <div className="container mx-auto navbar">
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-8 font-bold">
+          <ul className="menu menu-horizontal px-2 gap-8 ">
             <li>
               <a href="#home" className="nav-link">
                 HOME

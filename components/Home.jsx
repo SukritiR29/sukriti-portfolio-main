@@ -9,22 +9,22 @@ export default function Home() {
         className="container mx-auto min-h-screen md:grid md:grid-cols-2 place-items-center row-span-1 flex justify-center flex-col gap-4 items-center"
         id="home"
       >
-        <div className="flex flex-col gap-2 md:gap-4 items-center md:items-start px-4">
+        <div className="flex flex-col gap-3 md:gap-7 items-center md:items-start px-4">
           <span className="text-2xl md:text-3xl font-bold">Hello, I'm</span>
-          <span className="text-3xl md:text-6xl font-black text-primary uppercase">
+          <span className="text-3xl md:text-5xl font-black text-primary uppercase">
             Sukriti Rajora
           </span>
-          <span className="text-lg text-center md:text-start md:text-2xl font-medium">
+          <span className="text-lg text-center md:text-start md:text-2x3 font-small">
             I am a front-end web devloper and UI/UX designer. Also a content
             writer and graphic designer at times.
           </span>
-          <a href="http://resume-sukritir29.vercel.app/" className="btn btn-primary">
+          <a href="http://resume-sukritir29.vercel.app/" className="btn btn-primary mt-7">
             Download Resume
           </a>
         </div>
-        <div className="flex flex-col-reverse md:flex-col items-center justify-center w-full px-4">
-          <img className="w-4/5" src="/assets/images/girl.png" alt="" />
-          <div className="flex gap-4 text-2xl md:text-4xl justify-center w-full">
+        <div className="flex flex-col-reverse md:flex-col items-center justify-center w-full px-4 gap-10">
+          <img className="w-2/3" src="/assets/images/girl.png" alt="" />
+          <div className="flex gap-4 text-2xl md:text-4xl justify-center w-full mt-5">
             <a href="https://www.linkedin.com/in/sukriti-rajora-48b4aa218" className="hover:scale-125 transition-transform">
               <FiLinkedin />
             </a>

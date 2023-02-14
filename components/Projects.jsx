@@ -8,7 +8,7 @@ export default function Projects() {
       className="container mx-auto min-h-screen flex justify-center items-center overflow-x-hidden"
     >
       <div className="flex flex-col gap-4 items-center">
-        <div className="text-4xl md:text-6xl font-black text-primary">
+        <div className="text-4xl md:text-6xl font-black text-primary mt-20">
           Projects
         </div>
 

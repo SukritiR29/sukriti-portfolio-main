@@ -6,7 +6,7 @@ export default function About() {
       id="about"
       className="container mx-auto flex flex-col-reverse md:grid grid-cols-2 place-items-center items-center min-h-screen px-4 gap-4 md:gap-0 justify-center"
     >
-      <div className="flex justify-center rounded-2xl">
+      <div className="flex justify-center rounded-2xl mt-5">
         <div className="w-3/5 rounded-2xl relative about-image bg-primary">
           <img
             src="/assets/images/profile.jpg"
@@ -19,7 +19,7 @@ export default function About() {
         <div className="text-4xl md:text-6xl font-black text-primary">
           About Me
         </div>
-        <div className="text-lg md:text-2xl font-medium text-center md:text-justify">
+        <div className="text-lg md:text-2xl font-medium text-center md:text-justify ">
           I'm a third year engineering undergrad in Information Technology. I'm
           a Web Developer and a UI/UX designer with experience in React, Python,
           JavaScript, Data Structures and SQL. I've worked as a Software
