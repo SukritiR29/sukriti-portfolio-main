@@ -9,7 +9,7 @@ export default function Contact() {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_y8ekop6', 'template_3n2f39w', form.current, '9IsH8DNDnEbZ-QxUJ')
+      emailjs.sendForm('service_3fekmup', 'template_3n2f39w', form.current, '9IsH8DNDnEbZ-QxUJ')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
