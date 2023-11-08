@@ -1,11 +1,13 @@
 import Head from "next/head";
 import { useEffect } from "react";
-import About from "../components/About";
-import Contact from "../components/Contact";
-import Navbar from "../components/global/Navbar";
-import Home from "../components/Home";
-import Projects from "../components/Projects";
-import Skills from "../components/Skills";
+import Intro from "../components/Intro";
+import Holder from "../components/Holder";
+// import About from "../components/About";
+// import Contact from "../components/Contact";
+// import Navbar from "../components/global/Navbar";
+// import Home from "../components/Home";
+// import Projects from "../components/Projects";
+// import Skills from "../components/Skills";
 
 export default function index() {
   useEffect(() => {
@@ -63,12 +65,17 @@ export default function index() {
         <meta property="twitter:image" content=""></meta>
         
       </Head>
-      <Navbar />
+      <div className="lg:flex lg:gap-10 flex-row gap-10">
+      <Intro/>
+      <Holder/>
+      </div>
+     
+      {/* <Navbar />
       <Home />
       <About />
       <Projects />
       <Skills />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }

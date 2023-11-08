@@ -18,13 +18,10 @@ export default function Contact() {
     };
   
   return (
-    <section
-      id="contact"
-      className="container mx-auto min-h-screen flex justify-center items-center overflow-x-hidden"
-    >
-      <div className="flex flex-col gap-4 items-center w-full">
-        <div className="text-4xl md:text-6xl font-black text-primary">
-          Contact Me
+   
+      <div className="stick lg:ml-20 lg:mr-20">
+        <div className="">
+          <h2 className="text-3xl font-semibold text-base-100 uppercase underline">Get In Touch</h2>
         </div>
         <form
           action=""
@@ -32,11 +29,11 @@ export default function Contact() {
             e.preventDefault();
           }}
         >
-          <div className="lg:w-1/2 md:w-2/3 mx-auto">
+          <div className="lg:w-full md:w-2/3 mx-auto bg-secondary mt-10 rounded-xl pl-10 pr-10 pt-5 pb-5">
             <div className="flex flex-wrap">
               <div className="p-2 w-full lg:w-1/2">
                 <div className="relative">
-                  <label htmlFor="name" className="leading-7 text-sm">
+                  <label htmlFor="name" className="leading-7 text-sm text-slate-300">
                     Name
                   </label>
                   <input
@@ -49,7 +46,7 @@ export default function Contact() {
               </div>
               <div className="p-2 w-full lg:w-1/2">
                 <div className="relative">
-                  <label htmlFor="email" className="leading-7 text-sm ">
+                  <label htmlFor="email" className="leading-7 text-sm text-slate-300">
                     Email
                   </label>
                   <input
@@ -62,7 +59,7 @@ export default function Contact() {
               </div>
               <div className="p-2 w-full">
                 <div className="relative">
-                  <label htmlFor="message" className="leading-7 text-sm ">
+                  <label htmlFor="message" className="leading-7 text-sm text-slate-300">
                     Message
                   </label>
                   <textarea
@@ -81,6 +78,6 @@ export default function Contact() {
           </div>
         </form>
       </div>
-    </section>
+
   );
 } 

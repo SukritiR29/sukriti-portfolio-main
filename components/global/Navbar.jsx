@@ -1,35 +1,22 @@
 import React from "react";
 
-export default function Navbar() {
+export default function Navbar({ onAboutClick, onProjectClick, onSkillClick, onContactClick }) {
   return (
-    <div className="w-full fixed z-50 bg-base-100/50 backdrop-blur-lg">
+    <div className="fixed bg-base-100 p-0 rounded-lg h-10 flex items-center sticky top-1">
       <div className="container mx-auto navbar">
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-2 gap-8 ">
+          <ul className="menu menu-horizontal gap-2 text-xs text-primary font-light">
             <li>
-              <a href="#home" className="nav-link">
-                HOME
-              </a>
+            <button onClick={onAboutClick}>ABOUT</button>
             </li>
             <li>
-              <a href="#about" className="nav-link">
-                ABOUT
-              </a>
+            <button onClick={onProjectClick}>PROJECTS</button>
             </li>
             <li>
-              <a href="#projects" className="nav-link">
-                PROJECTS
-              </a>
+            <button onClick={onSkillClick}>SKILLS</button>
             </li>
             <li>
-              <a href="#skills" className="nav-link">
-                SKILLS
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="nav-link">
-                CONTACT
-              </a>
+             <button onClick={onContactClick}>CONTACT</button>
             </li>
           </ul>
         </div>
@@ -55,35 +42,22 @@ export default function Navbar() {
               tabIndex={0}
               className="menu menu-normal dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-base-100"
             >
+             <li>
+            <button onClick={onAboutClick}>ABOUT</button>
+            </li>
+            <li>
+            <button onClick={onProjectClick}>PROJECTS</button>
+            </li>
+            <li>
+            <button onClick={onSkillClick}>SKILLS</button>
+            </li>
               <li>
-                <a href="#home" className="nav-link">
-                  HOME
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="nav-link">
-                  ABOUT
-                </a>
-              </li>
-              <li>
-                <a href="#projects" className="nav-link">
-                  PROJECTS
-                </a>
-              </li>
-              <li>
-                <a href="#skills" className="nav-link">
-                  SKILLS
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="nav-link">
-                  CONTACT
-                </a>
+              <button onClick={onContactClick}>CONTACT</button>
               </li>
             </ul>
           </div>
           <a className="normal-case font-bold text-xl lg:hidden">
-            Sukriti Rajora
+            MENU
           </a>
         </div>
       </div>
