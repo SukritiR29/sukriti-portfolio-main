@@ -8,7 +8,7 @@ const Intro = () => {
 
 
   return (
-    <div className=' sticky bg-primary w-80 sm:m-10 lg:ml-20 lg:mt-20 sm:max-w-full mb-10 rounded-md p-1'>
+    <div className='sticky bg-primary lg:w-80 ml-10 lg:mt-20 mb-10 rounded-md p-1'>
         <div className='bg-base-100 ml-10 mr-10 mt-5 mb-5  rounded-full'>
             <img src="/assets/images/Profile.png" alt="profile" className='w-30 h-30' />
         </div>

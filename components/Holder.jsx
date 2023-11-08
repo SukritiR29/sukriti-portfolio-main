@@ -41,7 +41,7 @@ const Holder = ({ children }) => {
     setShowContact(true);
   }
   return (
-    <div className='bg-primary lg:w-3/4 lg:mr-10 lg:mt-20 mr-10 ml-10 rounded-xl rounded-lg'>
+    <div className='bg-primary lg:w-3/4 lg:mt-20 ml-10 rounded-xl rounded-lg'>
       <div className=''>
       <div className='flex justify-end sticky top-0'>
       <Navbar

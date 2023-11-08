@@ -11,10 +11,10 @@ import { SiMysql, SiTypescript,SiFirebase,SiTailwindcss, SiMongodb, SiVercel, Si
 export default function Skills() {
   return (
 
-      <div className="stick lg:ml-20 lg:mr-20">
-        <div className="">
+      <div className="stick lg:ml-20 lg:mr-20 ">
+
          <h2 className="text-3xl font-semibold text-base-100 uppercase underline">Skills</h2> 
-        </div>
+        
         <div className="text-lg font-semibold text-base-100 uppercase ">
           <p className=" mt-10 font-semibold underline">Technical Skills</p>
         <div className="text-base-100 font-xl mt-5 flex gap-12">
