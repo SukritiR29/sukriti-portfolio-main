@@ -3,7 +3,7 @@ import { AiOutlineHtml5, AiFillGithub, AiFillMediumCircle } from "react-icons/ai
 import { DiCss3, DiReact, DiPython, DiIllustrator, DiJava, DiGitBranch, DiPhotoshop } from "react-icons/di";
 import { TbBrandJavascript, TbBrandFigma, TbBrandNextjs, TbBrandCpp } from "react-icons/tb";
 import { TbBrandVue} from "react-icons/tb"
-import {LuSpline} from "react-icons/lu"
+
 
 import {BsFillBootstrapFill} from "react-icons/bs"
 import { SiMysql, SiTypescript,SiFirebase,SiTailwindcss, SiMongodb, SiVercel, SiVisualstudio } from "react-icons/si";
@@ -115,10 +115,6 @@ export default function Skills() {
         <div className="flex gap-3">
           <SiVisualstudio className="text-3xl"/>
           <h2>VS Code</h2>
-        </div>
-        <div className="flex gap-3">
-          <LuSpline className="text-3xl"/>
-          <h2>Spline</h2>
         </div>
         <div className="flex gap-3">
           <AiFillMediumCircle className="text-3xl"/>
