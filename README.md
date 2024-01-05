@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
 
-## Getting Started
+Welcome to my Portfolio Website, a showcase of my work, experiences, and skills presented in an organized and eye-catching manner. This website is built using Next.js for a powerful and efficient development environment, with the added benefit of enhanced UI components provided by DaisyUI.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- **Work Showcase**: Display your projects, applications, or any relevant work to showcase your skills and achievements.
+- **Experience Section**: Highlight your professional experiences, including details about roles, responsibilities, and accomplishments.
+- **Skills Presentation**: Clearly present your skills and competencies using visually appealing design elements.
+- **Contact Information**: Provide ways for visitors to get in touch with you, whether through email, social media, or other contact methods.
+- **Responsive Design**: Ensure that your portfolio is accessible and visually appealing across various devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Frontend Framework**: Next.js for a robust and efficient development environment.
+- **UI Component Library**: DaisyUI for enhanced UI components and a visually appealing design.
+- **Deployment**: Deploy your portfolio easily on platforms like Vercel or Netlify.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Here's my [Portfolio](https://sukriti-portfolio-rho.vercel.app/)
