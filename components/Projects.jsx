@@ -7,7 +7,7 @@ const Projects = () => {
      <h2 className='text-3xl font-semibold text-base-100 uppercase underline'>Projects</h2> 
       </div>
       <div className='lg:m-10 lg:ml-20 ml-2 mr-2'>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10 pb-3'>
+        <div className='bg-base-100 rounded-xl lg:flex mb-10 '>
           <img src="/assets/images/projects/Curenimal.png" alt="" className='h-40 w-40' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>Curenimal - Full Stack</h2>
@@ -18,7 +18,7 @@ const Projects = () => {
           </a>
           </div>
         </div>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10 pb-3'>
+        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
           <img src="/assets/images/projects/Sumedha.png" alt="" className='h-40 w-40' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>Sumedha - Full Stack</h2>
@@ -29,7 +29,7 @@ const Projects = () => {
           </a>
           </div>
         </div>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10 pb-3'>
+        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
           <img src="/assets/images/projects/AroundYou.png" alt="" className='h-40 w-40' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>Around You - Frontend Project</h2>
@@ -40,7 +40,29 @@ const Projects = () => {
          </a>
           </div>
         </div>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10 pb-3'>
+        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
+          <img src="/assets/images/projects/Wordle.png" alt="" className='h-40 w-40' />
+          <div>
+          <h2 className='ml-10 mt-3 text-slate-300'>Wordle - Frontend Project</h2>
+          <p className='ml-10 text-sm'>Tech Stack:: NextJS, TailwindCSS, JSON dictionary</p>
+          <p className='ml-10 text-xs font-justify mt-2 w-4/5'> A fun and challenging word-guessing game created with Next.js. This project incorporates concepts from DSA to provide an engaging gaming experience.</p>
+          <a href="https://github.com/SukritiR29/wordle-nextjs">
+          <button className='btn btn-primary btn-sm ml-10 mt-4'>Project</button>
+          </a>
+          </div>
+        </div>
+        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
+          <img src="/assets/images/projects/useradmin.png" alt="" className='h-40 w-40' />
+          <div>
+          <h2 className='ml-10 mt-3 text-slate-300'>Admin User Portal</h2>
+          <p className='ml-10 text-sm'>Tech Stack:: NextJS DaisyUI, Shade,API integration</p>
+          <p className='ml-10 text-xs font-justify mt-2 w-3/4'> This admin portal provides a user-friendly interface for administrators to manage user information, including viewing, editing, and deleting members.</p>
+          <a href="https://github.com/SukritiR29/user-member-portal">
+          <button className='btn btn-primary btn-sm ml-10 mt-4'>Project</button>
+          </a>
+          </div>
+        </div>
+        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
           <img src="/assets/images/projects/QAre.png" alt="" className='h-40 w-40' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>QAre - Full Stack</h2>
@@ -51,7 +73,7 @@ const Projects = () => {
           </a>
           </div>
         </div>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10 pb-3'>
+        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
           <img src="/assets/images/projects/TEDxRTU.png" alt="" className='h-40 w-40' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>TEDxRTU - Frontend Project</h2>

@@ -55,9 +55,27 @@ and ethers.js. Implemented a one-click login flow. Used nonce and JWT to authent
         </div>
       </div>
       </div>
-
     </div>
+    <div className="lg:m-20 lg:mt-0 mr-3 ml-3">
+    <div className="lg:flex gap-20">
+      <div className="bg-secondary lg:w-80 rounded-md">
+        <div className="flex flex-col items-center justify-center pt-5 ">
+        <h2 className="text-slate-300"> Hackathons </h2>
+        
+        <p className="text-xs mt-2 text-justify pl-3 pr-3 pb-2 text-slate-400 font-light">Participating in hackathons, working on several problem statements, building solutions and networking among people with same interests</p>
+        </div>
+      </div>
+
+      <div className="bg-secondary lg:w-80 rounded-md">
+        <div className="flex flex-col items-center justify-center pb-4 pt-5 ">
+        <h2 className="text-slate-300"> Reading </h2>
+        <p className="text-xs mt-2 text-justify pb-2 pl-3 pr-3 text-slate-400 font-light">Contributing to the community with Google Developers Students CLub as a UI Lead for 2 years. Conducting workshops on UI UX development and related challenges.</p>
+        </div>
+      </div>
+      </div>
+      </div>
   </div>
+  
 
   );
 }
