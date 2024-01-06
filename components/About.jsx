@@ -69,7 +69,7 @@ and ethers.js. Implemented a one-click login flow. Used nonce and JWT to authent
       <div className="bg-secondary lg:w-80 rounded-md">
         <div className="flex flex-col items-center justify-center pb-4 pt-5 ">
         <h2 className="text-slate-300"> Reading </h2>
-        <p className="text-xs mt-2 text-justify pb-2 pl-3 pr-3 text-slate-400 font-light">Contributing to the community with Google Developers Students CLub as a UI Lead for 2 years. Conducting workshops on UI UX development and related challenges.</p>
+        <p className="text-xs mt-2 text-justify pb-2 pl-3 pr-3 text-slate-400 font-light">When I'm not coding, you'll find me immersed in books, mainly novels. Got any suggestions? Throw them this way!!</p>
         </div>
       </div>
       </div>
