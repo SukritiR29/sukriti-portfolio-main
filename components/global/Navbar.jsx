@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar({ onAboutClick, onProjectClick, onSkillClick, onContactClick }) {
   return (
-    <div className="fixed bg-base-100 p-0 rounded-lg h-10 flex items-center sticky top-1">
+    <div className="fixed bg-accent p-0 rounded-lg h-10 flex items-center sticky top-1">
       <div className="container mx-auto navbar">
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal gap-2 text-xs text-primary font-light">
