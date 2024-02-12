@@ -13,11 +13,11 @@ export default function Skills() {
 
       <div className="stick lg:ml-20 lg:mr-20 ">
 
-         <h2 className="text-3xl font-semibold text-base-100 uppercase underline">Skills</h2> 
+         <h2 className="text-xl font-semibold  uppercase underline">Skills</h2> 
         
-        <div className="text-lg font-semibold text-base-100 uppercase ">
+        <div className="text-lg font-semibold  uppercase ">
           <p className=" mt-10 font-semibold underline">Technical Skills</p>
-        <div className="text-base-100 font-xl mt-5 flex gap-12">
+        <div className=" font-xl mt-5 flex gap-12">
         <div className="flex gap-3">
           <TbBrandNextjs className="text-3xl"/>
           <h2>NextJS</h2>
@@ -35,7 +35,7 @@ export default function Skills() {
           <h2>JavaScript</h2>
         </div>
         </div>
-        <div className="text-base-100 font-xl mt-10 flex gap-12">
+        <div className=" font-xl mt-10 flex gap-12">
         <div className="flex gap-3">
           <DiPython className="text-3xl"/>
           <h2>Python</h2>
@@ -53,7 +53,7 @@ export default function Skills() {
           <h2>C++</h2>
         </div>
         </div>
-        <div className="text-base-100 font-xl mt-10 flex gap-12">
+        <div className=" font-xl mt-10 flex gap-12">
         <div className="flex gap-3">
           <SiFirebase className="text-3xl"/>
           <h2>Firebase</h2>
@@ -71,7 +71,7 @@ export default function Skills() {
           <h2>HTML</h2>
         </div>
         </div>
-        <div className="text-base-100 font-xl mt-10 flex gap-12">
+        <div className=" font-xl mt-10 flex gap-12">
         <div className="flex gap-3">
           <SiMongodb className="text-3xl"/>
           <h2>MongoDB</h2>
@@ -91,9 +91,9 @@ export default function Skills() {
         </div>
         </div>
  
-      <div className="text-lg font-semibold text-base-100 uppercase underline">
+      <div className="text-lg font-semibold  uppercase underline mb-20">
         <h2 className="mt-10 font-semibold underline  ">Other Skills</h2>
-        <div className="text-base-100 font-xl mt-5 flex gap-12">
+        <div className=" font-xl mt-5 flex gap-12">
         <div className="flex gap-3">
           <TbBrandFigma className="text-3xl"/>
           <h2>Figma</h2>
@@ -111,7 +111,7 @@ export default function Skills() {
           <h2>Illustrator</h2>
         </div>
         </div>
-        <div className="text-base-100 font-xl mt-10 flex gap-12">
+        <div className=" font-xl mt-10 flex gap-12">
         <div className="flex gap-3">
           <SiVisualstudio className="text-3xl"/>
           <h2>VS Code</h2>
