@@ -9,7 +9,7 @@ export default function Home() {
         className="container mx-auto min-h-screen md:grid md:grid-cols-2 place-items-center row-span-1 flex justify-center flex-col gap-4 items-center"
         id="home"
       >
-        <div className="flex flex-col gap-3 md:gap-7 items-center md:items-start px-4">
+        <div className="flex flex-col  md:gap-7 items-center md:items-start px-4">
           <span className="text-2xl md:text-3xl font-bold">Hello, I'm</span>
           <span className="text-3xl md:text-5xl font-black text-primary uppercase">
             Sukriti Rajora
