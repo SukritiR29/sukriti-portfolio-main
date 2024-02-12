@@ -21,7 +21,7 @@ export default function Contact() {
    
       <div className="stick lg:ml-20 lg:mr-20">
         <div className="">
-          <h2 className="text-3xl font-semibold text-base-100 uppercase underline">Get In Touch</h2>
+          <h2 className="text-xl font-semibold  uppercase underline">Get In Touch</h2>
         </div>
         <form
           action=""
