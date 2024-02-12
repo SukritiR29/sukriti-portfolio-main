@@ -41,7 +41,7 @@ const Holder = ({ children }) => {
     setShowContact(true);
   }
   return (
-    <div className='bg-primary lg:w-3/4 lg:mt-20 ml-10 rounded-xl rounded-lg'>
+<div className='bg-secondary justify-end lg:w-3/4 mr-1 lg:mt-10 ml-10 rounded-xl rounded-lg' style={{ maxWidth: "90%" }}>
       <div className=''>
       <div className='flex justify-end sticky top-0'>
       <Navbar
@@ -49,6 +49,7 @@ const Holder = ({ children }) => {
       onProjectClick={toggleProject}
       onSkillClick={toggleSkills}
       onContactClick={toggleContact}
+      className='bg-accent'
       />
       </div>
       {showAbout && <About/> }
