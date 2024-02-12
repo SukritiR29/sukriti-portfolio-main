@@ -4,11 +4,11 @@ const Projects = () => {
   return (
     <div>
     <div className='stick lg:ml-20 lg:mr-20 ml-2 mb-5'>
-     <h2 className='text-3xl font-semibold text-base-100 uppercase underline'>Projects</h2> 
+     <h2 className='text-2xl font-semibold uppercase '>Projects</h2> 
       </div>
       <div className='lg:m-10 lg:ml-20 ml-2 mr-2'>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10 '>
-          <img src="/assets/images/projects/Curenimal.png" alt="" className='h-40 w-40' />
+        <div className='bg-accent rounded-xl lg:flex mb-10 '>
+          <img src="/assets/images/projects/Curenimal.png" alt="" className='h-40 w-40 rounded-xl ' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>Curenimal - Full Stack</h2>
           <p className='ml-10 text-sm'>Tech Stack:: NextJS, Firebase, NextAuth, DaisyUI, TypeScript</p>
@@ -18,8 +18,8 @@ const Projects = () => {
           </a>
           </div>
         </div>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
-          <img src="/assets/images/projects/Sumedha.png" alt="" className='h-40 w-40' />
+        <div className='bg-accent rounded-xl lg:flex mb-10'>
+          <img src="/assets/images/projects/Sumedha.png" alt="" className='h-40 w-40 rounded-xl' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>Sumedha - Full Stack</h2>
           <p className='ml-10 text-sm'>Tech Stack:: ReactJS, JavaScript, JWT, Figma, HTML, CSS</p>
@@ -29,8 +29,8 @@ const Projects = () => {
           </a>
           </div>
         </div>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
-          <img src="/assets/images/projects/AroundYou.png" alt="" className='h-40 w-40' />
+        <div className='bg-accent rounded-xl lg:flex mb-10'>
+          <img src="/assets/images/projects/AroundYou.png" alt="" className='h-40 w-40 rounded-xl' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>Around You - Frontend Project</h2>
           <p className='ml-10 text-sm'>Tech Stack:: Vue.js, VueX, OpenWeather API, TailwindCSS</p>
@@ -40,8 +40,8 @@ const Projects = () => {
          </a>
           </div>
         </div>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
-          <img src="/assets/images/projects/Wordle.png" alt="" className='h-40 w-40' />
+        <div className='bg-accent rounded-xl lg:flex mb-10'>
+          <img src="/assets/images/projects/Wordle.png" alt="" className='h-40 w-40 rounded-xl' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>Wordle - Frontend Project</h2>
           <p className='ml-10 text-sm'>Tech Stack:: NextJS, TailwindCSS, JSON dictionary</p>
@@ -51,8 +51,8 @@ const Projects = () => {
           </a>
           </div>
         </div>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
-          <img src="/assets/images/projects/useradmin.png" alt="" className='h-40 w-40' />
+        <div className='bg-accent rounded-xl lg:flex mb-10'>
+          <img src="/assets/images/projects/useradmin.png" alt="" className='h-40 w-40 rounded-xl' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>Admin User Portal</h2>
           <p className='ml-10 text-sm'>Tech Stack:: NextJS DaisyUI, Shade,API integration</p>
@@ -62,8 +62,8 @@ const Projects = () => {
           </a>
           </div>
         </div>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
-          <img src="/assets/images/projects/QAre.png" alt="" className='h-40 w-40' />
+        <div className='bg-accent rounded-xl lg:flex mb-10'>
+          <img src="/assets/images/projects/QAre.png" alt="" className='h-40 w-40 rounded-xl' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>QAre - Full Stack</h2>
           <p className='ml-10 text-sm'>Tech Stack:: NextJS, MongoDB, NextAuth, DaisyUI, ShadecnUI</p>
@@ -73,8 +73,8 @@ const Projects = () => {
           </a>
           </div>
         </div>
-        <div className='bg-base-100 rounded-xl lg:flex mb-10'>
-          <img src="/assets/images/projects/TEDxRTU.png" alt="" className='h-40 w-40' />
+        <div className='bg-accent rounded-xl lg:flex mb-10'>
+          <img src="/assets/images/projects/TEDxRTU.png" alt="" className='h-40 w-40 rounded-xl' />
           <div>
           <h2 className='ml-10 mt-3 text-slate-300'>TEDxRTU - Frontend Project</h2>
           <p className='ml-10 text-sm'>Tech Stack:: ReactJS, JavaScript, JWT, Figma, HTML, CSS</p>
