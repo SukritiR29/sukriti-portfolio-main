@@ -5,12 +5,12 @@ export default function About() {
   <div>
    <div className="stick lg:ml-20 lg:mr-20 ">
     <div className="mt-3 mb-3">
-    <h2 className="text-xl font-semibold uppercase underline">About Me</h2>
-    <a href="http://resume-sukritir29.vercel.app/" className="btn btn-base-100 btn-sm mt-5 text-sm pl-14 pr-14 font-normal">
+    <h2 className="text-lg font-semibold uppercase underline">About Me</h2>
+    <a href="http://resume-sukritir29.vercel.app/" className="btn btn-base-100 btn-sm mt-5 text-sm pl-10 pr-10 font-normal">
             Resume
           </a>
     </div>
-    <p className="mt-5 ml-4 mr-4 mb-5  text-sm text-justify">A programmer with an ardent passion for Web Developing and Data Structures. To develop my talents & knowledge and learn more about my subject of study, I have worked on a numerous impactful projects, several internships & hackathons. I continue to fervently learn about relevant topics while actively working and learning in the field of Full-Stack Development, and its derivatives.</p>
+    <p className="mt-5 ml-4 mr-4 mb-5  text-xs text-justify">A programmer with an ardent passion for Web Developing and Data Structures. To develop my talents & knowledge and learn more about my subject of study, I have worked on a numerous impactful projects, several internships & hackathons. I continue to fervently learn about relevant topics while actively working and learning in the field of Full-Stack Development, and its derivatives.</p>
    </div>
 
     <div className="lg:m-20 lg:mb-10 lg:mt-10  mr-3 ml-3">
@@ -18,7 +18,7 @@ export default function About() {
       <div className="lg:flex gap-20">
       <div className="bg-accent lg:w-80 mt-10 rounded-md">
         <div className="flex flex-col items-center justify-center pb-4 pt-3 ">
-        <h2 className="text-slate-300"> SDE Intern </h2>
+        <h2 className="text-slate-300 text-sm"> SDE Intern </h2>
         <h5 className="text-slate-300 text-sm"> Quinbay Technology - Bangalore </h5>
         <p className="text-xs">May 2023 - July 2023</p>
         <p className="text-xs mt-3 text-justify pl-3 pr-3 text-slate-400 font-light">Worked with Vue.js on a company's on going project. Created new features. Modified the API calls to prevent unnecessary page reloads.. Resolved over 45 bugs. Used VueX for proper routing of the pages.</p>
@@ -27,7 +27,7 @@ export default function About() {
 
       <div className="bg-accent lg:w-80 mt-10 rounded-md">
         <div className="flex flex-col items-center justify-center pb-4 pt-3 mb-1 ">
-        <h2 className="text-slate-300"> SDE Intern </h2>
+        <h2 className="text-slate-300 text-sm"> SDE Intern </h2>
         <h5 className="text-slate-300 text-sm"> MiniOrange - Pune </h5>
         <p className="text-xs">June 2022 - July 2022</p>
         <p className="text-xs mt-3 text-justify pl-3 pr-3 text-slate-400 font-light">Developed a user-friendly application to showcase Metamask wallet details, leveraging NextJS, Metamask API, Supabase,
