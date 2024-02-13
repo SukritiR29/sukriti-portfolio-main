@@ -66,8 +66,8 @@
           <meta property="twitter:image" content=""></meta>
           
         </Head>
-        <div className="lg:flex flex-row w-fit" >
-        <Intro className='fixed'/>
+        <div  className="lg:flex flex-row ">
+        <Intro className=''/>
         <Holder />
         </div>
       
