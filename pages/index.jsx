@@ -45,7 +45,7 @@
     });
 
     return (
-      <div className="relative">
+      <div className="overflow-x-hidden">
         <Head>
           <title>Sukriti.rj</title>
           <meta name="title" content="Sukriti.rj" />
@@ -67,7 +67,7 @@
           
         </Head>
         <div className="lg:flex flex-row w-fit" >
-        <Intro/>
+        <Intro className='fixed'/>
         <Holder />
         </div>
       
